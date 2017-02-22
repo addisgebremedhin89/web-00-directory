@@ -47,6 +47,81 @@ table {
 	border-spacing: 0;
 }
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                          BODY
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.student-container {
+	background: #FFF;
+	width: 100%;
+	height: 60%;
+	margin: 0;
+	font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+  padding: 10% 0;
+}
+
+.profile {
+	display: inline;
+	width: 21%;
+	margin: 2%;
+	float: left;
+}
+
+img {
+	margin: 10px 0;
+	border-radius: 75px;
+	/*border-style: solid;    use to align hover     */
+	/*border-width: thin;     use to align hover      */
+}
+
+.overlay {
+	position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 54px;
+  right: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+  opacity: 0;
+	transition: .7s ease;
+	background-color: #8d8989;
+}
+
+.eclipse {
+	position: relative;
+}
+
+.eclipse:hover .overlay {
+	opacity: 1;
+}
+.video-text {
+	 font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
+   color: #FFF;
+   font-size:14px;
+	 line-height: 20px;
+	 font-weight: 500;
+	 position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.press-play {
+	border-radius: 0;
+}
+
+a {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+
+p {
+	margin: 8px 0;
+  font-size: 12px;
+}
+=======
 =======
 /*Header*/
 
@@ -92,6 +167,7 @@ table {
   width: 100%;
   display: inline-block;
   float: right;
+  clear: both;
 }
 
 .social-link {
@@ -99,4 +175,5 @@ table {
   width: 10%;
 }
 ========
+
 
