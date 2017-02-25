@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-=======
+=========
 /*Header*/
 
 .logo {
@@ -62,17 +62,22 @@ table {
  }
  
 .header {
-  background-color: grey;
+  background: #888888;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.header-image {
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+/*.header-image {
  display: inline;
  width:100%;
  position: relative;
  z-index: 150;
-}
-
-========
+}*/
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                           BODY
@@ -149,7 +154,7 @@ p {
   font-size: 12px;
 }
 
-========
+
 /*Footer
 */
 
@@ -192,6 +197,6 @@ p {
 .nav-bar a:hover {
   color: white;
 }
-========
+
 
 
