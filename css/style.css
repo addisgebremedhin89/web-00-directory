@@ -53,8 +53,8 @@ table {
   position: absolute;
   float: right;
   padding-left: 15px;
- 	padding-top: 15px;
- 	padding-bottom: 15px;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
  	z-index: 400;
  	width: 35%;
  	display: inline;
@@ -62,10 +62,17 @@ table {
  }
  
 .header {
-  background: #888888;
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: 960px;
+  /*background: #fff;*/
+  padding: 66px 0 44px 0;
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #3e4d83, #43cfe3);
+  background: -moz-linear-gradient(to right, #3e4d83, #43cfe3);
+  background: linear-gradient(to right, #3e4d83, #43cfe3);
+  padding: 44px 0 22px 0;
 }
+
 
 h1 {
   font-size: 36px;
@@ -83,6 +90,23 @@ h1 {
                           BODY
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+.body-title {
+  /*font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font: 'Coda Caption', sans-serif;
+  font-size: 50px;
+  border-image-repeat: stretch;
+  line-height: 50px;
+  letter-spacing: 0.25em;
+  font-weight: bold;
+  max-width: 100%;
+  text-align: center;
+}
+.body-minititle {
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 44px;
+}
 .student-container {
 	background: #FFF;
 	width: 100%;
@@ -90,7 +114,7 @@ h1 {
 	margin: 0;
 	font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 .profile {
@@ -112,7 +136,7 @@ img {
   top: 10px;
   bottom: 0;
   left: 54px;
-  right: 0;
+  right: 10;
 	width: 150px;
 	height: 150px;
 	border-radius: 75px;
@@ -176,11 +200,17 @@ p {
 }
 
 .footer {
-  background-color: grey;
   width: 100%;
   display: inline-block;
   float: right;
   clear: both;
+  color: #888;
+  min-width: 960px;
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #3e4d83, #43cfe3);
+  background: -moz-linear-gradient(to right, #3e4d83, #43cfe3);
+  background: linear-gradient(to right, #3e4d83, #43cfe3);
+  padding: 44px 0 22px 0;
 }
 
 .social-link {
