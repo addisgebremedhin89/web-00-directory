@@ -100,10 +100,12 @@ h1 {
   font-weight: bold;
   max-width: 100%;
   text-align: center;
+  text-transform: uppercase;
 }
 .body-minititle {
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font: 300 16px/22px 'Oswald', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
   line-height: 44px;
 }
@@ -112,7 +114,8 @@ h1 {
 	width: 100%;
 	height: 60%;
 	margin: 0;
-	font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;*/
+  font: 300 16px/22px 'Oswald', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
 	text-align: center;
   padding: 5% 0;
 }
