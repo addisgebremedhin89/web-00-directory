@@ -220,6 +220,7 @@ p {
 .social-link {
   display: inline-block;
   width: 10%;
+  height: 10%;
 }
 .nav-bar a:link {
   color: white;
