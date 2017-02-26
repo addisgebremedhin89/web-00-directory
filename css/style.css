@@ -108,6 +108,7 @@ h1 {
   font: 300 16px/22px 'Oswald', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
   line-height: 44px;
+  text-transform: uppercase ;
 }
 .student-container {
 	background: #FFF;
@@ -220,7 +221,6 @@ p {
   display: inline-block;
   width: 10%;
 }
-
 .nav-bar a:link {
   color: white;
 }
